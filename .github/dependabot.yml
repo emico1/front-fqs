@@ -1,0 +1,17 @@
+# Revisa cada semana las dependencias de Gradle (Compose, OkHttp, Retrofit, Firebase)
+# y abre un pull request cuando hay versión nueva o un aviso de seguridad.
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: America/Monterrey
+    open-pull-requests-limit: 5
+    groups:
+      compose:
+        patterns: ["androidx.compose*"]
+      red:
+        patterns: ["com.squareup.*"]
+    labels: [dependencias, seguridad]
