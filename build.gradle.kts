@@ -11,7 +11,7 @@
 plugins {
     id("com.android.application") version "9.0.1" apply false
     id("org.jetbrains.kotlin.plugin.compose") version "2.2.10" apply false
-    id("org.jetbrains.kotlin.plugin.serialization") version "2.2.10" apply false
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.4.21" apply false
     // Genera el código de Room. Desde la 2.3 su versión ya no depende de la de Kotlin
     id("com.google.devtools.ksp") version "2.3.6" apply false
     // Lee app/google-services.json para conectar la app con Firebase (notificaciones push)
