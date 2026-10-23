@@ -15,5 +15,5 @@ plugins {
     // Genera el código de Room. Desde la 2.3 su versión ya no depende de la de Kotlin
     id("com.google.devtools.ksp") version "2.3.6" apply false
     // Lee app/google-services.json para conectar la app con Firebase (notificaciones push)
-    id("com.google.gms.google-services") version "4.4.4" apply false
+    id("com.google.gms.google-services") version "4.5.0" apply false
 }
