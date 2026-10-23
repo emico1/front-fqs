@@ -9,7 +9,7 @@
 // org.jetbrains.kotlin.android. Los plugins de Compose y de serialización deben tener la misma
 // versión de Kotlin.
 plugins {
-    id("com.android.application") version "9.0.1" apply false
+    id("com.android.application") version "9.4.1" apply false
     id("org.jetbrains.kotlin.plugin.compose") version "2.2.10" apply false
     id("org.jetbrains.kotlin.plugin.serialization") version "2.2.10" apply false
     // Genera el código de Room. Desde la 2.3 su versión ya no depende de la de Kotlin
