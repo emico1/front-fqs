@@ -1,6 +1,16 @@
-.gradle/
-.idea/
-**/build/
+# Archivos propios de cada computadora, no deben subirse al repositorio
 local.properties
+.gradle/
+build/
+app/build/
+.idea/
 *.iml
 .DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Llaves de firma del APK, nunca en el repositorio
+*.jks
+*.keystore
+keystore.properties

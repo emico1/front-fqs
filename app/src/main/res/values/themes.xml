@@ -1,0 +1,9 @@
+<resources>
+    <!-- El tema visual real vive en Kotlin (ui/theme) usando Jetpack Compose.
+         Este estilo base solo evita el flash blanco/negro antes de que Compose tome el control. -->
+    <style name="Theme.FamiliasQueSuman" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#FDF9F6</item>
+        <item name="android:windowBackground">#FDF9F6</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

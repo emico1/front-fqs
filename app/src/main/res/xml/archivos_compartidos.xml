@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Única carpeta que la app comparte, la usa la cámara para guardar la foto de un testimonio -->
+<paths>
+    <cache-path name="fotos" path="fotos/" />
+</paths>

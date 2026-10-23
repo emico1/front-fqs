@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Versión de producción. Todo el tráfico debe ir por HTTPS y solo se confía en
+    certificados del sistema (no en certificados instalados por el usuario, que es como
+    se intercepta tráfico con proxies).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
